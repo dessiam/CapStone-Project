@@ -26,6 +26,13 @@ function Navbar() {
             Add Book
           </Link>
 
+          <Link 
+            to="/favorites" 
+            className="text-gray-400 hover:text-purple-500 transition duration-300"
+         >
+            Favorites
+          </Link>
+
           <Link
             to="/about"
             className="text-gray-400 hover:text-purple-500 transition duration-300"
